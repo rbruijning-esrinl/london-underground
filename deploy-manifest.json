@@ -1,0 +1,18 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-11-06T15:53:40.629Z",
+  "title": "London Underground Real-Time Train Locations",
+  "authMode": "oauth",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-11-06T15-53-40-86a53719-b7a8-4168-82ef-c487d911b0c6/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "ygy5lhY6Hscwa2aS",
+  "deploymentUrl": "https://rbruijning-esrinl.github.io/london-underground/"
+}

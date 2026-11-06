@@ -1,0 +1,89 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-11-06T15:53:40.634Z",
+  "item": {
+    "title": "London Underground Real-Time Train Locations",
+    "subtitle": "TfL Underground network and live train station-proxy updates"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": true,
+    "theme": {
+      "mode": "dark",
+      "accent": "coral"
+    },
+    "layout": {},
+    "widgets": [
+      {
+        "id": "legend",
+        "type": "legend",
+        "slot": "bottom-left",
+        "title": "Underground layers",
+        "config": {}
+      },
+      {
+        "id": "home",
+        "type": "home",
+        "slot": "top-left",
+        "title": "Home",
+        "config": {}
+      },
+      {
+        "id": "default-layer-list",
+        "type": "layerList",
+        "slot": "top-right",
+        "config": {}
+      },
+      {
+        "id": "default-basemap-gallery",
+        "type": "basemapGallery",
+        "slot": "top-right",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "tfl-train-refresh",
+        "label": "Refresh TfL Underground train markers every 5 seconds",
+        "bundlePath": "./runtime/behaviors/tfl-train-refresh-93f87a55e0e0cf75.js",
+        "sourceSha256": "93f87a55e0e0cf75ef7d7f02de4aca28229b86e46a67f8811c666e08b36e0d95",
+        "modulePaths": [],
+        "config": {
+          "refreshMs": 5000,
+          "arrivalsUrl": "https://api.tfl.gov.uk/Mode/tube/Arrivals",
+          "stationsUrl": "https://api.tfl.gov.uk/StopPoint/Mode/tube"
+        },
+        "mounts": [],
+        "ownedLayerIds": [
+          "tfl-live-trains"
+        ],
+        "interactions": [],
+        "installedAt": "2026-11-06T16:16:46.329Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "86a53719-b7a8-4168-82ef-c487d911b0c6",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-0b0f4688-c7f6-451b-ba2b-c74ddc7d6f8b",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-11-06T15:53:40.629Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": []
+  }
+}
