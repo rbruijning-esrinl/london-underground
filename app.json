@@ -52,8 +52,8 @@
       {
         "id": "tfl-train-refresh",
         "label": "Refresh TfL Underground train markers every 5 seconds",
-        "bundlePath": "./runtime/behaviors/tfl-train-refresh-93f87a55e0e0cf75.js",
-        "sourceSha256": "93f87a55e0e0cf75ef7d7f02de4aca28229b86e46a67f8811c666e08b36e0d95",
+        "bundlePath": "./runtime/behaviors/tfl-train-refresh-093ca18e7addb660.js",
+        "sourceSha256": "093ca18e7addb6606003e081aeb4987e7baae339d67ae67f278f7b217414840a",
         "modulePaths": [],
         "config": {
           "refreshMs": 5000,
@@ -62,10 +62,59 @@
         },
         "mounts": [],
         "ownedLayerIds": [
-          "tfl-live-trains"
+          "tfl-live-trains",
+          "tfl-underground-stations"
         ],
         "interactions": [],
-        "installedAt": "2026-11-06T16:16:46.329Z"
+        "installedAt": "2026-11-09T15:34:18.487Z"
+      },
+      {
+        "id": "tfl-station-zone-style",
+        "label": "Style TfL Underground stations by fare zone",
+        "bundlePath": "./runtime/behaviors/tfl-station-zone-style-45189919af102a64.js",
+        "sourceSha256": "45189919af102a64208c9c5f17b5bca06bfff307e4f7bccee7c57db9316fde22",
+        "modulePaths": [],
+        "config": {},
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-09T15:34:50.297Z"
+      },
+      {
+        "id": "tfl-live-train-display",
+        "label": "Keep live TfL trains prominent above station markers",
+        "bundlePath": "./runtime/behaviors/tfl-live-train-display-18fa9fcb7fc6d92d.js",
+        "sourceSha256": "18fa9fcb7fc6d92df86f60ce468ab34bd9c1ad75c7a2e607d73f6a4e564f6df1",
+        "modulePaths": [],
+        "config": {},
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-09T15:36:52.375Z"
+      },
+      {
+        "id": "tfl-live-train-direction",
+        "label": "Show TfL-reported service direction on live train symbols",
+        "bundlePath": "./runtime/behaviors/tfl-live-train-direction-b8d6906887bacf8f.js",
+        "sourceSha256": "b8d6906887bacf8f26ff7b1b2665860d582d8b29f4a9ac8ff94580c14470cc70",
+        "modulePaths": [],
+        "config": {},
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-09T15:37:35.996Z"
+      },
+      {
+        "id": "tfl-station-line-style",
+        "label": "Style TfL Underground stations by primary line",
+        "bundlePath": "./runtime/behaviors/tfl-station-line-style-caaea33565f7c01c.js",
+        "sourceSha256": "caaea33565f7c01cf986dd16cea781e0851285e13327a3f47ed7300e905da402",
+        "modulePaths": [],
+        "config": {},
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-09T15:38:18.907Z"
       }
     ]
   },

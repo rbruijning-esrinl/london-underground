@@ -42,18 +42,6 @@
                 "renderer": {
                   "type": "uniqueValue",
                   "field1": "line_id",
-                  "defaultLabel": "Other Underground route",
-                  "defaultSymbol": {
-                    "type": "esriSLS",
-                    "color": [
-                      107,
-                      107,
-                      107,
-                      255
-                    ],
-                    "width": 3,
-                    "style": "esriSLSSolid"
-                  },
                   "uniqueValueGroups": [
                     {
                       "classes": [
@@ -8964,18 +8952,6 @@
           "renderer": {
             "type": "uniqueValue",
             "field1": "line_id",
-            "defaultLabel": "Other Underground route",
-            "defaultSymbol": {
-              "type": "esriSLS",
-              "color": [
-                107,
-                107,
-                107,
-                255
-              ],
-              "width": 3,
-              "style": "esriSLSSolid"
-            },
             "uniqueValueGroups": [
               {
                 "classes": [
@@ -9362,7 +9338,6 @@
         }
       },
       "effect": "drop-shadow(2px, 2px, 3px)",
-      "blendMode": "normal",
       "popupInfo": {
         "popupElements": [
           {
@@ -9372,7 +9347,8 @@
         ],
         "description": "<div style=\"font-family:Arial,'Helvetica Neue',sans-serif;color:#1d1d1b;margin:-8px -10px -10px;min-width:245px;background:#fff;\">\n    <div style=\"height:66px;background:#0019a8;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;\">\n      <div style=\"width:47px;height:47px;border-radius:50%;background:#e32017;border:6px solid #fff;box-sizing:border-box;position:absolute;left:22px;\"></div>\n      <div style=\"background:#0019a8;color:#fff;font-weight:800;font-size:11px;letter-spacing:.6px;padding:4px 7px;z-index:1;\">UNDERGROUND</div>\n    </div>\n    <div style=\"padding:16px;border-top:7px solid #e32017;\">\n      <div style=\"font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#6b6b6b;font-weight:bold;margin-bottom:5px;\">London Underground</div>\n      <div style=\"font-size:23px;line-height:1.12;color:#0019a8;font-weight:800;margin-bottom:13px;\">{line_name} line</div>\n      <div style=\"display:flex;border-top:1px solid #d9d9d9;padding:11px 0 8px;gap:12px;\"><div style=\"width:42%;font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:#6b6b6b;font-weight:bold;\">Line code</div><div style=\"width:58%;font-size:14px;color:#1d1d1b;font-weight:bold;\">{line_id}</div></div>\n      <div style=\"display:flex;border-top:1px solid #d9d9d9;padding:8px 0 4px;gap:12px;\"><div style=\"width:42%;font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:#6b6b6b;font-weight:bold;\">Route segment</div><div style=\"width:58%;font-size:14px;color:#1d1d1b;\">{route}</div></div>\n      <div style=\"font-size:10px;color:#6b6b6b;margin-top:13px;\">Transport for London · Underground network</div>\n    </div></div>",
         "title": "TfL Underground line"
-      }
+      },
+      "blendMode": "normal"
     }
   ],
   "baseMap": {
